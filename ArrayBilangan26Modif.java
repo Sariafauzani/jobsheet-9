@@ -1,8 +1,9 @@
 public class ArrayBilangan26Modif {
    public static void main(String[] args) {
-    int[] bil; 
-    bil = new int[4];
-    bil[4] = {5, 13, -7, 17};
-    System.out.print(bil[4]);
+    double[] bil = {5.0, 12867, 7.5, 2000000};
+
+    for (int i = 0; i <= 4; i++) {
+    System.out.println(bil[i]);
 }
 } 
+}
